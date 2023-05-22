@@ -1,0 +1,47 @@
+/* <-------------- Navigation bar CSS ---------------> */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.navigation-section{
+    background-color: #fff;
+    border-bottom: #c7c7c7 solid 1px;
+    position: fixed;
+    width: 100vw;
+}
+
+.navigation-container{
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    
+}
+
+.logo{
+    width: 150px;
+}
+
+.nav-links-wraper{
+    display: flex;
+    gap: 10px;
+   
+}
+
+.nav-links{
+    color: #000000;
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 25px 40px;
+    border-bottom: #ffffff solid 3px;
+}
+
+.nav-links:hover{
+    color: #a83e92;
+    border-bottom: #a83e92 solid 3px;
+}

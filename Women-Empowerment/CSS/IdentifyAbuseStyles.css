@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+/* <-------------- Identify Abuse CSS ---------------> */
+
+.abuse-container-1{
+    margin: 0 10%;
+    display: flex;
+    height: 90vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.abuse-hero-content{
+    font-size: 4.5rem;
+    color: #a83e92;
+    line-height: 5rem;
+}
+
+.abuse-hero-content span{
+    font-size: 3rem;
+    color: #000000;
+    font-weight: 300;
+}
+
+.abuse-hero-img{
+    width: 400px;
+    border-radius: 50px;
+}
+
+/* <-------------- abuse-container-2 ---------------> */
+.abuse-section{
+    background-color: #e6e9f2;
+    
+}
+.abuse-container-2{
+    margin: 0 20%;
+}
+
+.abuse-container-2 h2{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 4rem;
+}
+
+.abuse-container-2 p{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    font-size: 1.2rem;
+}
+
+/* <-------------- abuse-container-3 ---------------> */
+
+.abuse-section-3{
+    background-color: #592c5f;
+    color: #FFF;
+}
+
+.abuse-container-3{
+    margin: 0 25%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.abuse-container-3 h2{
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+
+.abuse-signs-div{
+    display: flex;
+    align-items: start;
+    margin-bottom: 50px;
+    font-size: 1.3rem;
+}
+
+.abuse-signs-div i{
+    margin-right: 20px;
+    font-size: 2rem;
+    color: #eebb7c;
+}

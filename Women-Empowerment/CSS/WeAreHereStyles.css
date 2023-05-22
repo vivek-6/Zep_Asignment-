@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+/* <-------------- WeAreHere CSS ---------------> */
+
+.weAreH-container-1{
+    padding-top: 50px;
+    margin: 0 10%;
+    display: flex;
+    height: 90vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.weAreH-hero-content{
+    font-size: 4.5rem;
+    color: #a83e92;
+    line-height: 5rem;
+    margin-bottom: 30px;
+}
+
+.weAreH-hero-content-div span{
+    font-size: 2rem;
+    color: #000000;
+    font-weight: 300;
+}
+
+.weAreH-hero-img{
+    width: 400px;
+    border-radius: 50px;
+    margin-right: 50px;
+}
+
+/* <-------------- WeAreHere section 2 ---------------> */
+
+.weAreH-section-2{
+    /* background-color: #a83e92; */
+    background-color: #592c5f;
+    color: #fff;
+    padding-bottom: 100px;
+}
+
+.weAreH-container-2{
+    margin: 0 10%;
+    display: flex;
+    padding-top: 100px;
+}
+
+.yt-video iframe{
+    border: #a83e92 solid 2px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.weAreH-content{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: start  ;
+    justify-content: space-between;
+}
+.weAreH-content h3{
+    font-size: 2rem;
+    margin-bottom: 20px;
+
+}
+
+.weAreH-content p{
+    font-size: 1.2rem;
+}
+
+.weAreH-socials{
+    padding-bottom: 10px;
+}
+
+.weAreH-socials i{
+    font-size: 2.5rem;
+    margin-right: 50px;
+    padding: 15px;  
+    background-color: #a83e92;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+
+}
+
+.weAreH-socials i:hover{
+    background-color: #dd52c1;
+    transition: all 0.3s ease-in-out;
+}

@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#007bef;
+    background-image:url("https://eci.gov.in/uploads/monthly_2018_09/eci200x200.png.0b64512a61d9374ccebae62e674b8879.png") ;
+}
+.wrapper{
+    width: 40%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: #007bef; */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box{
+    width: 100%;
+    background: #ffffff;
+    margin: 20px 0px;
+    border-radius: 10px;
+    
+}
+.heading{
+    width: 100%;
+    font-size: 17px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+}
+.content{
+    display: none;
+    padding: 20px;
+}
+.plus{
+    cursor: pointer;
+}
+.cross{
+    display: none;
+    cursor: pointer;
+}

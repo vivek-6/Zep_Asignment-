@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("members-login-bg.jpg");
+    /* background-size: 100%; */
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+.login {
+    width: 30%;
+    height: 75%;
+    background-color: beige;
+    border-radius: 20px;
+}
+
+.login .image {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("./members-login-card-header.jpg");
+    background-position: 50%;
+    /* border-radius: 20px; */
+    background-size: 100%;
+    padding-bottom: 30px;
+    /* padding-left: 30px; */
+    color: white;
+    font-size: 24px;
+}
+
+.form {
+    width: 100%;
+    height: 60%;
+    color: white;
+}
+
+form {
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+
+/* .form input{
+    width: 85%;
+    height: 12%;
+    padding-left: 15px;
+} */
+.form ul {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 9px 0px;
+    color: black;
+    margin-bottom: 40px;
+}
+
+.form ul li {
+    list-style: none;
+    color: #9494a2;
+    font-size: 18px;
+}
+
+.form ul li a {
+    text-decoration: none;
+    color: #68bfe2;
+}
+
+#email {
+    font-size: 15px;
+    width: 90%;
+    height: 12%;
+    padding: 22px 15px;
+    padding-left: 15px;
+    border: 1px solid #68bfe2;
+    border-radius: 5px;
+    color: #9494a2;
+    margin: 20px 0px;
+}
+
+#password {
+    font-size: 15px;
+    color: #9494a2;
+    width: 90%;
+    height: 12%;
+    padding: 22px 15px;
+    padding-left: 15px;
+    border: 1px solid #68bfe2;
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+
+#checkbox {
+    /* width: 30%; */
+    /* border: 3px solid #68bfe2;     */
+    background-color: #68bfe2;
+    padding: 0px 35px;
+}
+
+#btn {
+    width: 90%;
+    height: 14%;
+    border: 1px solid #ef7f36;
+    /* background-color: rgb(239,127,54); */
+    /* background-image: lin; */
+    border-radius: 20px;
+    color: white;
+    font-size: large;
+    background: rgb(255, 162, 12);
+    background: linear-gradient(110deg, rgba(255, 162, 12, 1) 36%, rgba(239, 127, 54, 1) 72%);
+}
